@@ -1,0 +1,52 @@
+.header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.header img {
+	width: 125px;
+	height: 100px;
+	background-color: white;
+}
+
+.header button {
+	width: 200px;
+	height: 50px;
+}
+
+.competitionsList{ 
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-left: 150px;
+	visibility: hidden;
+	transition: 0.5s;
+}
+
+.competitionsList button {
+	width: 200px;
+	outline: 0;
+	border: 1px solid white;
+	background-color: lightblue;
+	margin: 15px;
+	padding: 10px;
+	font-family: Arial;
+	font-size: 16px;
+	color: black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.competitionsList button:hover {
+	border: 1px solid lightblue;
+	background-color: white;
+	transition: 0.2s;
+}
+
+.competitionsList img {
+	width: 50px;
+	height: 50px;
+}
+
