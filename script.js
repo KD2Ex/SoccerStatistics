@@ -14,7 +14,7 @@
 let obj = {};
 
 let competitions = $.ajax({
-  headers: { 'X-Auth-Token': '2e5f60c330ea4b23b982bf4f73681e39' },
+  headers: { 'X-Auth-Token': '7206eff818fa4f5e8de74aa5905f67e4' },
   url: 'http://api.football-data.org/v2/competitions?plan=TIER_ONE',
   dataType: 'json',
   type: 'GET',
